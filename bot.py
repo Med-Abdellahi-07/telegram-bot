@@ -1,8 +1,7 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkupfrom telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 # TOKENTOKEN= "8145989681:AAFfeCUpbxNGnC6g3g44IEUS3bKh4vt7JZU"
 # المستخدمون المسموح لهمALLOWED_USERS = ["ST25000", "ST25001", "ST25003"]
-# الملفاتFILES = {
-    # ================= ALGÈBRE =================   
+# الملفاتFILES = {  
 "Algèbre linéaire et applications": {        "Chapitre 1": "BQACAgQAAxkBAAOOaWuBmblWgyA53XWsBlQpoYvaVKkAApMrAAIDq2FTx1LXORVtlWs4BA",
         "TD 1": "BQACAgQAAxkBAAIBy2lt5QE23QrP0dtDDUjYDm1jgrB7AAJeHAACaQNxU9hnH7PrnsxsOAQ",        "TD 2": "BQACAgQAAxkBAAIBzGlt5QFIT9DQVIquTdSQ1uHuJ7I8AAJfHAACaQNxUz9_ZPH9JqsYOAQ",        "Livre": "BQACAgQAAxkBAAIB3mlt-WfrIVG0S-4rUnrM3xf_sC8VAAKBHAACaQNxUzmuUQah6mrZOAQ"    },
     # ================= IA =================   
